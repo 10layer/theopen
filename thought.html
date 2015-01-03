@@ -2,11 +2,36 @@
 layout: default
 ---
 
-<section id="news" class="first page">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<h1>Thought</h1>
+
+<section id="news" class="page">
+	<div id="location-carousel" class="carousel slide" data-ride="carousel">
+	<!-- Indicators -->
+		<div class="container">
+			<div class="charcoal-transparent-bg carousel-header">
+				<h1 class="smaller">OPEN Thought
+				</h1>
+			</div>
+		</div>
+  		<!-- Wrapper for slides -->
+		<div class="carousel-inner" role="listbox">
+			<div class="item active" style="background-image: url({{ "/assets/img/thought/thought-1.jpg"  | prepend: site.baseurl }})"></div>
+			<div class="item" style="background-image: url({{ "/assets/img/thought/thought-2.jpg"  | prepend: site.baseurl }})"></div>
+			<div class="item" style="background-image: url({{ "/assets/img/thought/thought-3.jpg"  | prepend: site.baseurl }})"></div>
+			<div class="item" style="background-image: url({{ "/assets/img/thought/thought-4.jpg"  | prepend: site.baseurl }})"></div>
+			<div class="item" style="background-image: url({{ "/assets/img/thought/thought-2.jpg"  | prepend: site.baseurl }})"></div>
+		</div>
+		<!-- Controls -->
+  <a class="left carousel-control" href="#location-carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#location-carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+	</div>
+</section>
+
 				
 				<div class="container two-up">
 		<div class="row">
