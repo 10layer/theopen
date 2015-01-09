@@ -3,7 +3,7 @@ layout: post
 title:  "Where good ideas come from"
 date:   2015-01-09
 categories: thought
-blurb: Co-working is changing where we work and how we work. This short animation is a great explanation of the concept of co-working.
+blurb: The work of Steven Johnson was a major source of inspiration when we started OPEN.
 img: /assets/img/thought/thought-4.jpg
 author: Paul Keursten
 ---
