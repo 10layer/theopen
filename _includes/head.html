@@ -4,9 +4,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <![endif]-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  
+  <meta name="description" content="OPEN designs, builds and manages co-working and innovation spaces for itself and for select partners.">
+  <meta name="keywords" content="workspace, co-working, shared space, office space, rental, South Africa, Johannesburg, Maboneng, Cape Town, Waterfront, V&amp;A Waterfront, Workshop 17, Mamelodi, Tshimologong">
+  <meta content="{{ site.title }}" property="og:site_name">
+{% if page.title %}
+  <meta content="{{ page.title }}" property="og:title">
+{% else %}
+  <meta content="{{ site.title }}" property="og:title">
+{% endif %}
+{% if page.title %}
+  <meta content="article" property="og:type">
+{% else %}
+  <meta content="website" property="og:type">
+{% endif %}
+{% if page.description %}
+  <meta content="{{ page.description }}" property="og:description">
+{% else %}
+  <meta content="{{ site.description }}" property="og:description">
+{% endif %}
+{% if page.url %}
+  <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+{% endif %}
+{% if page.date %}
+  <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+  <meta content="{{ site.url }}/about/" property="article:author">
+{% endif %}
+{% if page.img %}
+  <meta content="/img/posts/{{ page.img }}" property="og:image">
+{% else %}
+  <meta content="/assets/img/logo-white.png" property="og:image">
+{% endif %}
+{% if page.categories %}
+  {% for category in page.categories limit:1 %}
+  <meta content="{{ category }}" property="article:section">
+  {% endfor %}
+{% endif %}
+{% if page.tags %}
+  {% for tag in page.tags %}
+  <meta content="{{ tag }}" property="article:tag">
+  {% endfor %}
+{% endif %}
   <title>OPEN</title>
   
   <link rel="icon" type="image/png" href="{{ "/assets/img/favicon.png" | prepend: site.baseurl }}">
@@ -32,16 +69,5 @@
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | prepend: site.baseurl }}">
   <!-- END CSS TEMPLATE -->
-  
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-29274309-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 
 </head>
