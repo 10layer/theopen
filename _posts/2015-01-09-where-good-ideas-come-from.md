@@ -22,5 +22,3 @@ The book is worth reading. For those who prefer the short version and prefer lis
 For those who enjoy the animation while listening: 
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/NugRZGDbPFU" frameborder="0" allowfullscreen></iframe>
-
-[Back to Thought](/thought.html)
