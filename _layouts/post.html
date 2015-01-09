@@ -1,15 +1,35 @@
 ---
 layout: default
 ---
-<div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+<section id="news" class=" page background fullpage" style="background-image: url({{ page.img }})">
+	<div class="container">
+		<!-- <div class="row">
+			<div class="col-lg-12 space-bottom">
+				<img src="/assets/img/logo-transparent-black.png" alt="">
+			</div>
+		</div> -->
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="charcoal-transparent-bg badass first col-md-6">{{ page.title }}</h1>
+				<div class="big badass quote">
+					<p>{{ page.blurb }}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
-  <article class="post-content">
-    {{ content }}
-  </article>
-
-</div>
+<section id="about" class="">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h1>{{ page.title }}</h1>
+				<h3>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</h3>
+				<article class="post-content">
+					{{ content }}
+				</article>
+			</div>
+		</div>
+	</div>
+</section>

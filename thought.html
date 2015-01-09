@@ -1,115 +1,45 @@
 ---
 layout: default
 ---
-
 <section id="news" class="page">
 	<div id="location-carousel" class="carousel slide" data-ride="carousel">
-	<!-- Indicators -->
-		<div class="container">
-			<div class="charcoal-transparent-bg carousel-header">
-				<h1 class="smaller">OPEN Thought
-				</h1>
-			</div>
-		</div>
-  		<!-- Wrapper for slides -->
 		<div class="carousel-inner" role="listbox">
-			<div class="item active" style="background-image: url({{ "/assets/img/thought/thought-1.jpg"  | prepend: site.baseurl }})"></div>
-			<div class="item" style="background-image: url({{ "/assets/img/thought/thought-2.jpg"  | prepend: site.baseurl }})"></div>
-			<div class="item" style="background-image: url({{ "/assets/img/thought/thought-3.jpg"  | prepend: site.baseurl }})"></div>
-			<div class="item" style="background-image: url({{ "/assets/img/thought/thought-4.jpg"  | prepend: site.baseurl }})"></div>
-			<div class="item" style="background-image: url({{ "/assets/img/thought/thought-2.jpg"  | prepend: site.baseurl }})"></div>
+			{% for post in site.categories.thought %}
+				<div class="item {% if forloop.index == 1 %} active {% endif %} clickable" style="background-image: url({{ post.img  | prepend: site.baseurl }})"  onclick="location.href='{{ post.url | prepend: site.baseurl }}'">
+					<div class="container" >
+						<div class="row">
+							<div class="col-6 charcoal-transparent-bg carousel-header">
+								<h1>{{ post.title }}</h1>			
+							</div>
+						</div>	
+					</div>
+				</div>	
+			{% endfor %}
 		</div>
 		<!-- Controls -->
-  <a class="left carousel-control" href="#location-carousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#location-carousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+		<a class="left carousel-control" href="#location-carousel" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#location-carousel" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
 	</div>
 </section>
 
-				
-				<div class="container two-up">
-		<div class="row">
-			<div class="col-md-6">
-			<h2>Co-working in South Africa</h2>
-				<p>Work has changed, work spaces are changing too. South Africa has tapped into the local trend of co-working. OPEN is not alone in its endeavour to create a shared working environment for entrepreneurs and professionals. 
-In recent years, quite a number of co-working spaces were established. Specifically in Cape Town, but also in Joburg and some other cities like Durban. The nature, focus and facilities of these spaces vary quite a bit.
-OPEN has developed its own approach in this rapidly developing landscape, focusing on high quality facilities and high speed internet, and linking entrepreneurs to corporates.
 
-<p>To help you find your way, we selected some sites and links that might help you:
-
-<p>A short article on co-working in Africa featuring SA spaces like 88MPH and OPEN: http://greenatwork.com/?p=708
-
-<h3>An overview of spaces in Cape Town</h3>
-http://www.collaborativeconsumption.com/2014/06/03/co-working-in-cape-town/
-
-<p>An overview of 5 co-working spaces in Johannesburg: http://10and5.com/2013/08/15/5-creative-co-working-spaces-in-johannesburg/
-
-<p>There are websites that help you find a space anywhere in the world. For example:
-http://creativespaceexplorer.org/
-<img src="{{ "/assets/img/thought/thought-1.jpg" | prepend: site.baseurl }}" alt="Thought">
-				
-			</div>
-			</div>
-
-			<div class="col-md-6">
-				<h2>The rise of innovation districts</h2>
-				<p>The way innovation is done and being thought of has changed over the years. We used to think that innovation happens in highly secretive and specialised Research & Development departments of large companies, where highly skilled researchers and developers develop new technologies and solutions.
-
-<p>The last decades have shown that this view is outdated and concept like ‘open innovation’, ‘rapid prototyping’, ‘innovation networks’, ‘smart cities’ have come up. The central idea behind this is that openness, sharing, and proximity of various disciplines and end users are conducive to innovation.
-
-<p>This gave rise to what are called “innovation districts’. These districts are geographic areas where leading-edge institutions and companies cluster and connect with start-ups, business incubators and accelerators. They are also physically compact, transit-accessible, and technically-wired and offer mixed-use housing, office, and retail.
-
-<p>OPEN’s new developments, at the V&A Waterfront and at Wits, are examples of this. It is not about co-working as such. Co-Working is just a component of an eco-system in which a multitude of entrepreneurs, academics, researchers, developers, corporates are brought together to work on innovation.
-
-Click on this link to learn more about the development of innovation districts in the US: http://www.brookings.edu/about/programs/metro/innovation-districts
-
-<img src="{{ "/assets/img/thought/thought-2.jpg" | prepend: site.baseurl }}" alt="Thought">
-			</div>
+<div class="container two-up">
+	{% for post in site.categories.thought %}
+	<div class="row">
+		<div class="col-md-6 newspic" style="background-image: url({{ post.img | prepend: site.baseurl }})">
 			
-<div class="row">
-<div class="col-md-6">
-<h2>What is co-working?</h2>
-<p>Co-working is changing where we work and how we work. This short animation is a great explanation of the concept of co-working:
-
-<p>https://www.youtube.com/watch?v=le0dfcG_jVw
-<br>
-<iframe width="560" height="315" src="//www.youtube.com/embed/le0dfcG_jVw" frameborder="0" allowfullscreen></iframe>
-
-
-
-
-			</div>
-
-			<div class="col-md-6">
-				<h2>Where good ideas come from</h2>
-				<!--<div style="height: 226px; overflow: hidden;"> -->
-<p>The work of Steven Johnson was a major source of inspiration when we started OPEN. In 2010 he wrote the book: Where good ideas come from: the natural history of innovation. 
-
-<p>For the book, Johnson researched the origin and development of great ideas: What kind of environment breeds them? What sparks the flash of brilliance? How do we generate the breakthrough technologies that push forward our lives, our society, our culture? 
-
-<p>Steven Johnson's answers are revelatory as he identifies the seven key patterns behind genuine innovation, and traces them across time and disciplines. From Darwin and Freud to the halls of Google and Apple, Johnson investigates the innovation hubs throughout modern time and pulls out the approaches and commonalities that seem to appear at moments of originality.
-
-<p>The book is worth reading. For those who prefer the short version and prefer listening above reading, there is the TED talk Johnson gave: http://www.ted.com/talks/steven_johnson_where_good_ideas_come_from.
-For those who enjoy the animation while listening. click:
-
-<p><iframe width="560" height="315" src="//www.youtube.com/embed/NugRZGDbPFU" frameborder="0" allowfullscreen></iframe>
-
-<br><img src="{{ "/assets/img/thought/thought-4.jpg" | prepend: site.baseurl }}" alt="Thought">
-
-				</div>
-			</div>
 		</div>
-		
-			</div>
+		<div class="col-md-6">
+			<h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+			<h4>{{ post.date | date: '%B %d, %Y' }}{% if post.author %} • {{ post.author }}{% endif %}</h4>
+			<p>{{ post.blurb }}</p>
 		</div>
 	</div>
-	
-	
-
-
-</section>
+	{% endfor %}
+</div>
