@@ -25,10 +25,10 @@
 						<li {% if page.url == "/events.html" %} class="active" {% endif %}>
 							<a href="{{ "/events.html" | prepend: site.baseurl }}">Events</a>
 						</li>
-						<li class="dropdown">
+						<li class="dropdown hidden-xs">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Locations <span class="caret"></span></a>
 							<ul class="dropdown-menu" role="menu">
-								<li><a href="#"><strong>Johannesburg</strong></a></li>
+								<li ><a href="#"><strong>Johannesburg</strong></a></li>
 								<li><a href="{{ "/maboneng.html"  | prepend: site.baseurl }}">Maboneng</a></li>
 								<li><a href="{{ "/wits.html"  | prepend: site.baseurl }}">Open at Wits (Coming soon)</a></li>
 								<li class="divider"></li>
@@ -40,6 +40,12 @@
 								 <!-- <li><a href="#">Mamelodi (Coming soon)</a></li> -->
 							</ul>
 						</li>
+						
+						<li class="visible-xs"><a href="{{ "/maboneng.html"  | prepend: site.baseurl }}">Maboneng</a></li>
+						<li class="visible-xs"><a href="{{ "/wits.html"  | prepend: site.baseurl }}">Open at Wits (Coming soon)</a></li>
+						<li class="visible-xs"><a href="{{ "/workshop17.html"  | prepend: site.baseurl }}">Workshop17, V&amp;A Waterfront</a></li>
+						<li class="visible-xs"><a href="{{ "/mamelodi.html"  | prepend: site.baseurl }}">Mamelodi (Coming soon)</a></li>
+						
 						<!-- <li>
 							<a href="{{ "/community.html" | prepend: site.baseurl }}">Community</a>
 						</li> -->
