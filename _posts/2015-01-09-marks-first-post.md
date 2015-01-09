@@ -8,7 +8,7 @@ img: /assets/img/thought/thought-5.jpg
 author: Mark Seftel
 ---
 
-What a pleasure to be able to easily post a thought - simply create a simple text file using [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links)
+What a pleasure to be able to easily post a thought - simply create a simple text file using <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links" target="_blank">Markdown</a>
 
 Then save the file and use git add, git commit and git push to merge the file with the master git repository online and bingo the the thought is live.
 
