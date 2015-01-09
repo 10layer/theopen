@@ -6,6 +6,7 @@ categories: thought innovation
 blurb: Co-working is changing where we work and how we work. This short animation is a great explanation of the concept of co-working.
 img: /assets/img/thought/thought-3.jpg
 author: Paul Keursten
+video: //www.youtube.com/embed/le0dfcG_jVw
 ---
 
 Co-working is changing where we work and how we work. This short animation is a great explanation of the concept of co-working.
