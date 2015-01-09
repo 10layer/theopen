@@ -2,9 +2,9 @@
 layout: post
 title:  "Marks first post"
 date:   2015-01-09
-categories: mark web technical testing
+categories: mark web technical testing thought
 blurb: This is my first post and im going to write about my experience doing it.
-img: /assets/img/thought/thought-2.jpg
+img: /assets/img/thought/thought-5.jpg
 author: Mark Seftel
 ---
 
