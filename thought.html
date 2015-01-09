@@ -42,7 +42,7 @@ layout: default
 			<div class="col-md-6"><iframe width="100%" height="320" src="{{ post.video }}" frameborder="0" allowfullscreen></iframe></div>
 		{% else %}
 			<div class="col-md-6">
-				<div class="newspic" style="background-image: url({{ post.img | prepend: site.baseurl }})"></div>
+				<div class="newspic clickable" style="background-image: url({{ post.img | prepend: site.baseurl }})" onclick="location.href='{{ post.url | prepend: site.baseurl }}#post'"></div>
 			</div>
 		{% endif %}
 	</div>
