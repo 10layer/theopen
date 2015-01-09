@@ -3,7 +3,7 @@ layout: post
 title:  "Marks first post from the midlands"
 date:   2015-01-09
 categories: mark web technical testing thought
-blurb: This is my first post done gazing out over the rolling midlands hills. Using a combination of Git, Jekyll and text editor we can now post thoughts to the though section of our website with ease. The system does all the heavy lifting.
+blurb: This is my first post done gazing out over the rolling midlands hills. Using a combination of Git, Jekyll and a text editor we can now post thoughts to the though section of our website with ease. The system does all the heavy lifting.
 img: /assets/img/thought/thought-5.jpg
 author: Mark Seftel
 ---
