@@ -4,7 +4,7 @@ title:  "Where good ideas come from"
 date:   2015-01-09
 categories: thought
 blurb: The work of Steven Johnson was a major source of inspiration when we started OPEN.
-img: /assets/img/thought/thought-4.jpg
+img: https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAXU7o5mlAnfJap&w=534&h=280&url=http%3A%2F%2Fimg.tedcdn.com%2Fr%2Fimages.ted.com%2Fimages%2Fted%2F200758_800x600.jpg%3Fc%3D1280%252C720%26ll%3D1%26quality%3D89%26w%3D1200&cfs=1&upscale=1&sx=0&sy=0&sw=800&sh=419
 author: Paul Keursten
 video: //www.youtube.com/embed/NugRZGDbPFU
 ---
