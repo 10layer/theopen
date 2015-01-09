@@ -1,15 +1,16 @@
 ---
 layout: post
-title:  "Marks first post"
+title:  "Marks first post from the midlands"
 date:   2015-01-09
 categories: mark web technical testing thought
-blurb: This is my first post and im going to write about my experience doing it.
+blurb: This is my first post done gazing out over the rolling midlands hills.
 img: /assets/img/thought/thought-5.jpg
 author: Mark Seftel
 ---
 
-tae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+What a pleasure to be able to easily post a thought - simply create a simple text file using [Markup](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links)
 
-tae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+Then save the file and use git add, git commit and git push to merge the file with the master git repository and bingo the the thought is live.
 
-[Click on this link](http://www.open.co.za) to learn more about the development of innovation districts in the US.
+Oh and one more thing... Ill edit once done on a icon issue.
+
