@@ -20,13 +20,24 @@ layout: default
 <section id="post">
 	<div class="container">
 		<div class="row">
+			<div class="col-sm-2">
+				<a href="/thought.html" class="btn btn-primary btn-small">Back to Thought</a>
+			</div>
+			<div class="col-sm-2">
+				<div class="fb-share-button" data-layout="button_count"></div>
+			</div>
+			<div class="col-sm-2" style="padding-top: 3px">
+				<a href="https://twitter.com/share" class="twitter-share-button" data-via="openworkspaces">Tweet</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			</div>
+		</div>
+		<div class="row">
 			<div class="col-md-12">
 				<h1>{{ page.title }}</h1>
 				<h3>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</h3>
 				<article class="post-content">
 					{{ content }}
 				</article>
-				<a href="/thought.html">Back to Thought</a>
 			</div>
 		</div>
 	</div>
