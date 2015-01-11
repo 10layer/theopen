@@ -17,7 +17,7 @@ Steven Johnson's answers are revelatory as he identifies the seven key patterns 
 
 The book is worth reading. For those who prefer the short version and prefer listening above reading, there is the TED talk Johnson gave: 
 
-<iframe src="https://embed-ssl.ted.com/talks/steven_johnson_where_good_ideas_come_from.html" width="640" height="360" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="https://embed-ssl.ted.com/talks/steven_johnson_where_good_ideas_come_from.html" width="560" height="315" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 For those who enjoy the animation while listening: 
 
