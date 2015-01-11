@@ -9,7 +9,7 @@ author: Paul Keursten
 video: //www.youtube.com/embed/NugRZGDbPFU
 ---
 
-The work of Steven Johnson was a major source of inspiration when we started OPEN. In 2010 he wrote the book *Where good ideas come from: the natural history of innovation*. 
+The work of Steven Johnson was a major source of inspiration when we started OPEN in 2012. In 2010 he wrote the book *Where good ideas come from: the natural history of innovation*. 
 
 For the book, Johnson researched the origin and development of great ideas: What kind of environment breeds them? What sparks the flash of brilliance? How do we generate the breakthrough technologies that push forward our lives, our society, our culture? 
 
