@@ -19,3 +19,5 @@ Fundamental changes are happening. This Huffington post article summarizes five 
 Huffington Post sees cubicle farms giving way to co-working spaces, business suits and pumps will be replaced with jeans and Converse sneakers, and rush hour will feature fewer clogged highways.
 
 ![alt text](/assets/img/thought/thought-7.jpg "Image")
+
+[Link to Full Storey](http://www.huffingtonpost.com/jaleh-bisharat/the-way-we-work-is-changi_b_5716853.html)
