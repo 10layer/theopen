@@ -9,6 +9,7 @@ author: Paul Keursten
 ---
 
 Fundamental changes are happening. This Huffington post article summarizes five disruptions:
+
 1. Corporate loyalty is dead
 2. Social networks have changed how we hire
 3. The best talent isn't necessarily within driving distance
