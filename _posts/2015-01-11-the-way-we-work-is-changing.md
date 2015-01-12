@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  The way we work is changing
-date:   2015-01-11
+title:  The way we work is changing
+date:   2015-01-11
 categories: thought
 blurb: Five disruptions in the way we work
 img: /assets/img/thought/thought-7.jpg
