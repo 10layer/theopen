@@ -8,11 +8,16 @@ img: /assets/img/thought/thought-5.jpg
 author: Mark Seftel
 ---
 
-What a pleasure to be able to easily post a thought - simply create a simple text file using <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links" target="_blank">Markdown</a>
+What a pleasure to be able to easily post a thought - simply create a simple text file using Markdown.
 
 Then save the file and use git add, git commit and git push to merge the file with the master git repository online and bingo the thought is live.
 
 Oh and one more thing, to associate an image with the banner and to the Thought simply add the image to the /img/thought/ dir and Jekyll will resize the image for the different requirements of the site. Jekyll then takes the text file and based on the categories, creates an SEO rich url for the thought - both on the Thought index page and on a dedicated thought detail page.
 
-What a Thought! Thanks to Jason for making the magic happen.
+Thanks to Jason for making the magic happen.
+
+Useful links:
+[Markdown on Daringfireball](http://daringfireball.net/projects/markdown/syntax)
+[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links)
+
 
