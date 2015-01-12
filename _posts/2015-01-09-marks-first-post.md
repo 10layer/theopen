@@ -17,7 +17,8 @@ Oh and one more thing, to associate an image with the banner and to the Thought 
 Thanks to Jason for making the magic happen.
 
 Useful links:
-[Markdown on Daringfireball](http://daringfireball.net/projects/markdown/syntax)
-[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links)
+
+1. [Markdown on Daringfireball](http://daringfireball.net/projects/markdown/syntax)
+2. [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links)
 
 
