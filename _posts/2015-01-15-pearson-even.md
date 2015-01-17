@@ -2,7 +2,7 @@
 layout: post
 title:  Pearson Edupreneurs demo day
 date:   2015-01-15
-categories: event,thought
+categories: thought event
 blurb: Pearson learn from 8 Edupreneurs
 img: /assets/img/thought/thought-9.jpg
 author: OPEN Events
