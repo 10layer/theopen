@@ -2,6 +2,7 @@
 published: false
 ---
 
+## Africa: the new frontier for innovation
 ---
 2015-04-14
 author: Sonya Suransky
