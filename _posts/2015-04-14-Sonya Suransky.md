@@ -4,7 +4,7 @@ published: true
 
 ## Third place working
 
-Why place still matters in the digital age
+Why the work place still matters in the digital age
 
 Regus conducted a large-scale study on third place working around major cities and close to major transport hubs (New York, London, Paris, Mumbai & Hong Kong).
 
