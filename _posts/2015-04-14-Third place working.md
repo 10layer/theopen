@@ -4,7 +4,7 @@ layout: post
 title: "Third place working"
 date: 2015-04-14
 categories: co-working thought
-blurb: Why the work place still matters in the digital age
+blurb: "Why the work place still matters in the digital age"
 img: "/assets/img/thought/thought-8.png"
 author: Sonya Suransky
 ---
