@@ -1,6 +1,14 @@
 ---
 published: true
+layout: post
+title: Third place working
+date: {}
+categories: thought
+blurb: Why the work place still matters in the digital age
+img: "/assets/img/thought/thought-5.jpg"
+author: Sonya Suransky
 ---
+
 
 ## Third place working
 ---
