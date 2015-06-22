@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Africa: the new frontier for innovation"
-date:   2015-04-14
+date:   2015-04-15
 categories: thought co-working
 blurb: For some Africa might not be the first continent that comes to mind in terms innovation but think again: a fast amount of technology firms see Africa as the next big thing.
 img: /assets/img/thought/thought-9.jpg
