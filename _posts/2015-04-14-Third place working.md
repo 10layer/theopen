@@ -5,7 +5,7 @@ title: "Third place working"
 date: 2015-04-14
 categories: co-working thought
 blurb: Why the work place still matters in the digital age
-img: "/assets/img/thought/thought-8.jpg"
+img: "/assets/img/thought/thought-8.png"
 author: Sonya Suransky
 ---
 
@@ -24,4 +24,4 @@ The analysis identifies three high-level reasons, apart from convenient access, 
 
 Check out the full report: [Link to Full Story](http://www.regus.fr/images/Third%20Place%20Whitepaper_LowRes_tcm308-44973.pdf)
 
-![alt text](/assets/img/thought/thought-8.jpg "Image")
+![alt text](/assets/img/thought/thought-8.png "Image")
